@@ -32,5 +32,3 @@ class DDQNConfig(Config):
 class DQfDConfig(Config):
     demo_mode = 'use_demo'
     demo_num = int(Config.BATCH_SIZE * Config.DEMO_RATIO)
-
-
